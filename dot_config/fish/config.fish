@@ -17,7 +17,7 @@ alias pip="pip3"
 alias python="python3"
 alias ...="cd ../.."
 alias ....="cd ../../.."
-set -gx PATH $PATH $HOME/.bin
+
 eval (/opt/homebrew/bin/brew shellenv)
 
 starship init fish | source
