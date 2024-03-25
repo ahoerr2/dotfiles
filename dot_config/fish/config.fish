@@ -18,6 +18,8 @@ alias python="python3"
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+set -e HOMEBREW_SHELLENV_PREFIX
+
 eval (/opt/homebrew/bin/brew shellenv)
 
 starship init fish | source
