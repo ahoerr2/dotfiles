@@ -22,5 +22,7 @@ set -e HOMEBREW_SHELLENV_PREFIX
 
 eval (/opt/homebrew/bin/brew shellenv)
 
+zoxide init fish | source
+
 starship init fish | source
 
