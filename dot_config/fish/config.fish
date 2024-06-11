@@ -20,6 +20,8 @@ alias ....="cd ../../.."
 
 set -e HOMEBREW_SHELLENV_PREFIX
 
+set -gx EDITOR nvim
+
 eval (/opt/homebrew/bin/brew shellenv)
 
 zoxide init fish | source
