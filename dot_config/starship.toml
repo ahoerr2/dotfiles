@@ -1,0 +1,24 @@
+
+# Battery Configuration
+[battery]
+full_symbol = '󰁹 '
+charging_symbol = '󰂄 '
+discharging_symbol = '󰂍 '
+
+[[battery.display]] # 'bold red' style and discharging_symbol when capacity is between 0% and 10%
+threshold = 10
+style = 'bold red'
+charging_symbol = '󰢜 '
+discharging_symbol = '󰂃 '
+
+[[battery.display]] # 'bold orange' style and discharging_symbol when capacity is between 10% and 20%
+threshold = 20
+style = 'bold orange'
+charging_symbol = '󰂆 '
+discharging_symbol = '󰁻 '
+
+[[battery.display]] # 'bold yellow' style and discharging_symbol when capacity is between 20% and 40%
+threshold = 40
+style = 'bold yellow'
+charging_symbol = '󰂇 '
+discharging_symbol = '󰁼 '
